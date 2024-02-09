@@ -1,0 +1,105 @@
+My Grocery List
+    0:  "", "", "eggs", 0
+    1:  "", "", "milk", 0
+    2:  "", "", "hot dogs", 0
+    3:  "", "", "bread", 0
+
+My roommate's Grocery List
+    0:  "", "Ruffles", "potato chips", 0
+    1:  "", "Frito Lays", "potato chips", 0
+    2:  "", "Bud Lite", "beer", 0
+    3:  "", "", "eggs", 0
+    4:  "", "", "pretzels", 0
+
+Combined Grocery Lists
+    0:  "", "", "eggs", 0
+    1:  "", "", "milk", 0
+    2:  "", "", "hot dogs", 0
+    3:  "", "Lakes 'Ole", "butter", 0
+    4:  "", "", "bread", 0
+    5:  "", "", "bananas", 0
+    6:  "", "", "apples", 0
+    7:  "", "Ruffles", "potato chips", 0
+    8:  "", "Frito Lays", "potato chips", 0
+    9:  "", "", "pretzels", 0
+
+
+Expected results:
+    0:  "", "", "eggs", 0
+    1:  "", "", "milk", 0
+    2:  "", "", "hot dogs", 0
+    3:  "", "Lakes 'Ole", "butter", 0
+    4:  "", "", "bread", 0
+    5:  "", "", "bananas", 0
+    6:  "", "", "apples", 0
+    7:  "", "Ruffles", "potato chips", 0
+    8:  "", "Frito Lays", "potato chips", 0
+    9:  "", "", "pretzels", 0
+
+
+Actual results:  
+    0:  "", "", "eggs", 0
+    1:  "", "", "milk", 0
+    2:  "", "", "hot dogs", 0
+    3:  "", "Lakes 'Ole", "butter", 0
+    4:  "", "", "bread", 0
+    5:  "", "", "bananas", 0
+    6:  "", "", "apples", 0
+    7:  "", "Ruffles", "potato chips", 0
+    8:  "", "Frito Lays", "potato chips", 0
+    9:  "", "", "pretzels", 0
+
+
+Test results:    PASS
+Wow, Mom got all of my favorite foods!
+
+
+    0:  "", "", "Burger Patties", 0
+    1:  "", "", "Hot Dogs", 0
+    2:  "", "Pizza Hut", "Pizza", 0
+    3:  "", "", "Cheese Sticks", 0
+
+This is the snack list that Mom gave us!
+    0:  "", "", "Doritos Potato Chips", 0
+    1:  "", "Lays", "Potato Chips", 0
+
+The drink list mom gave us!
+    0:  "", "", "Coca-Cola", 0
+    1:  "", "Squirt", "Soda", 0
+    2:  "", "Modelo", "Beer", 0
+
+This is the finished grocery list, headed to the store now!
+    0:  "", "", "Canola Oil", 0
+    1:  "", "Pizza Hut", "Pizza", 0
+    2:  "", "Modelo", "Beer", 0
+    3:  "", "", "Burger Patties", 0
+    4:  "", "", "Hot Dogs", 0
+    5:  "", "", "Cheese Sticks", 0
+    6:  "", "", "Doritos Potato Chips", 0
+    7:  "", "Lays", "Potato Chips", 0
+    8:  "", "Squirt", "Soda", 0
+Expected results:
+    0:  "", "", "Canola Oil", 0
+    1:  "", "Pizza Hut", "Pizza", 0
+    2:  "", "Modelo", "Beer", 0
+    3:  "", "", "Burger Patties", 0
+    4:  "", "", "Hot Dogs", 0
+    5:  "", "", "Cheese Sticks", 0
+    6:  "", "", "Doritos Potato Chips", 0
+    7:  "", "Lays", "Potato Chips", 0
+    8:  "", "Squirt", "Soda", 0
+
+
+Actual results:  
+    0:  "", "", "Canola Oil", 0
+    1:  "", "Pizza Hut", "Pizza", 0
+    2:  "", "Modelo", "Beer", 0
+    3:  "", "", "Burger Patties", 0
+    4:  "", "", "Hot Dogs", 0
+    5:  "", "", "Cheese Sticks", 0
+    6:  "", "", "Doritos Potato Chips", 0
+    7:  "", "Lays", "Potato Chips", 0
+    8:  "", "Squirt", "Soda", 0
+
+
+Test results:    PASS
